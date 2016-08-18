@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>myDiary</title>
+    <link rel="stylesheet" type ="text/css"  href="index.css">
+</head>
+<body>
+<fieldset>
+    <header>
+        <img id="logo" src="../1405114/images/diary.png">
+        <div id="titles">
+            <h1>myDiary</h1>
+            <h2>Keeping track of all my thoughts</h2>
+        </div>
+    </header>
+</fieldset>
+<main>
+    <fieldset>
+        <nav>
+            <ul>
+                <li><a href="diary.php">All Dairy items</a></li>
+                <li><a href="diary.php">Work items</a></li>
+                <li><a href="diary.php">University items</a></li>
+                <li><a href="diary.php">Family items</a></li>
+                <li><a href="add.php">Insert a Dairy item</a></li>
+            </ul>
+        </nav>
+    </fieldset>
+    <fieldset>
+        <div id="content">
+            <p> Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+                Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit
+                lobortis nisl ut aliquip ex ea commodo consequa
+                <br>
+                <br>
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+                Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit
+                lobortis nisl ut aliquip ex ea commodo consequa
+            </p>
+        </div>
+    </fieldset>
+</main>
+<fieldset>
+    <footer>
+        <div id="footer">
+            Designed by Ludwig van de l'Isle,2016
+        </div>
+    </footer>
+</fieldset>
+</body>
+</html>
