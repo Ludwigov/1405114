@@ -24,15 +24,10 @@ else{header("location: index.php");}
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
 <header>
     <img id="logo" src="logo.png" alt="logo"/>
-
-
     <h1>Bug Tracker</h1>
-
     <p id=p1>Keeping track of all my thoughts</p>
-
 </header>
 <main>
     <div class="nav">
@@ -49,9 +44,8 @@ else{header("location: index.php");}
                 <li><a href="add.html">Insert a Dairy item</a></li>
             </ul>
         </nav>
-    </div>
-
-    <div class="content">
+     </div>
+   <div class="content">
         <form action="<? {$_SERVER["PHP_SELF"];} ?>" method="POST">
             <label>Category</label>
             <label>
@@ -69,11 +63,8 @@ else{header("location: index.php");}
                 </select></label><br><br>
             <input type="submit" value="submit"><br>
             <br>
-
         </form>
     </div>
-
-
 </main>
 <fieldset>
     <footer>
